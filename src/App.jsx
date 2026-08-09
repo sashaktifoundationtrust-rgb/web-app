@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import CampaignBanner from './components/CampaignBanner';
 import Header from './components/Header';
 import HeroAim from './components/HeroAim';
+import FreeOpdSection from './components/FreeOpdSection';
 import StorySection from './components/StorySection';
 import ImpactStats from './components/ImpactStats';
 import GallerySection from './components/GallerySection';
@@ -29,8 +31,25 @@ export default function App() {
     setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
   };
 
+  const handleOpenOpdRegister = () => {
+    setSelectedPhoto({
+      id: 999,
+      title: "Free OPD Checkup & Diagnostic Testing Registration",
+      category: "Free Health Camp",
+      image: "/images/1.jpg",
+      desc: "Register for free doctor consultations, blood tests, anemia screenings, and preventive healthcare for women & families across SaShakti Foundation health centers.",
+      location: "Free Regional Health Centers"
+    });
+  };
+
   return (
     <div className="app-main-wrapper">
+      {/* Top Free OPD Campaign Banner */}
+      <CampaignBanner
+        data={content.topAnnouncement}
+        onOpenOpdModal={handleOpenOpdRegister}
+      />
+
       {/* Top Sticky Header */}
       <Header
         content={content}
@@ -44,6 +63,12 @@ export default function App() {
 
       {/* Main Content Body */}
       <main className="app-content">
+        {/* Free OPDs & Women's Diagnostic Health Testing Section */}
+        <FreeOpdSection
+          data={content.freeOpdSection}
+          onOpenRegister={handleOpenOpdRegister}
+        />
+
         {/* OUR AIM Hero Section matching screenshot layout */}
         <HeroAim aimData={content.aimSection} />
 

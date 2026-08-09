@@ -2,12 +2,26 @@ export const contentData = {
   en: {
     brand: "SASHAKTI FOUNDATION",
     subBrand: "TRUST & WELFARE ORGANIZATION",
+    topAnnouncement: {
+      badge: "SPECIAL HEALTH DRIVE",
+      text: "Free OPDs, Women's Diagnostic Screenings & Health Camps across Rural Centers",
+      action: "Book Free OPD / Learn More"
+    },
     availableIn: "This page is available in:",
     languages: [
       { id: "en", name: "English" },
       { id: "hi", name: "hindi" }
     ],
     nav: [
+      {
+        id: "opd",
+        label: "Free OPD & Health",
+        items: [
+          { title: "Free OPD Consultations", desc: "Expert doctor checkups & free medicine" },
+          { title: "Women's Health Screening", desc: "Diagnostic tests & preventive care" },
+          { title: "Mobile Health Camps", desc: "Outreach in rural villages" }
+        ]
+      },
       {
         id: "about",
         label: "About us",
@@ -38,9 +52,33 @@ export const contentData = {
         ]
       }
     ],
-    searchPlaceholder: "Search initiatives, founder's message, reports...",
+    searchPlaceholder: "Search initiatives, free OPD camps, reports...",
     searchLabel: "Search",
     donateBtn: "Donate Now",
+    freeOpdSection: {
+      badge: "COMMUNITY HEALTHCARE INITIATIVE",
+      title: "Free OPDs & Specialized Health Testing for Women",
+      subtitle: "Dedicated to early detection, preventive care, and free medical consultations for women and families across underserved communities.",
+      features: [
+        {
+          title: "Free Doctor Consultations (OPD)",
+          desc: "Qualified physicians providing free diagnosis, prescription, and guidance for general & women's health issues."
+        },
+        {
+          title: "Women's Wellness & Diagnostic Testing",
+          desc: "Free screenings for anemia, blood sugar, blood pressure, nutritional deficiencies, and maternal health care."
+        },
+        {
+          title: "Free Medicine Distribution",
+          desc: "Providing essential vitamins, supplements, and prescribed medicines at zero cost to patients."
+        },
+        {
+          title: "Mobile Health Camps in Villages",
+          desc: "Bringing diagnostic equipment and medical staff directly to doorsteps in rural & remote centers."
+        }
+      ],
+      ctaText: "Register for Free OPD Checkup"
+    },
     aimSection: {
       tag: "OUR AIM",
       title: "OUR AIM",
@@ -49,10 +87,10 @@ export const contentData = {
         {
           id: 1,
           image: "/images/1.jpg",
-          category: "Healthcare & Awareness",
-          title: "Preventive Care & Medical Outreach",
-          desc: "Bringing essential diagnostic screenings, early detection, and free health checkups to rural & underserved communities.",
-          location: "Regional Health Camps"
+          category: "Free OPD & Healthcare",
+          title: "Free Women's OPD & Preventive Care Outreach",
+          desc: "Bringing essential diagnostic screenings, early detection, free medicines, and doctor OPD checkups to women & families.",
+          location: "Free Regional OPD Camps"
         },
         {
           id: 2,
@@ -97,7 +135,7 @@ export const contentData = {
       storyText: "The word 'Shakti' in Hindu mythology signifies the supreme creative force of everything. Founder Ashish Singh draws his deepest inspiration from his mother—how a mother selflessly gives everything to her children without expecting anything in return. SaShakti Foundation is dedicated to all mothers out there, striving to spread happiness and provide basic amenities to every underprivileged child.",
       keyPoints: [
         "Primary and secondary education priority for every girl child.",
-        "Uplifting young women to make them independent in every aspect of life.",
+        "Free OPD checkups and specialized diagnostic testing for women.",
         "51% of total beneficiaries are girls, driving attitudinal change in parents.",
         "Over 200,000 children provided quality education since launch."
       ]
@@ -108,7 +146,7 @@ export const contentData = {
       stats: [
         { value: 200000, suffix: "+", label: "Children Educated", sub: "Since inception in Mission Education" },
         { value: 51, suffix: "%", label: "Girl Beneficiaries", sub: "Priority focus on equal educational access" },
-        { value: 120, suffix: "+", label: "Health Drives", sub: "Screenings & preventive checkups completed" },
+        { value: 120, suffix: "+", label: "Free Health Camps", sub: "Screenings & OPD checkups completed" },
         { value: 45, suffix: "+", label: "Active Centers", sub: "Grassroots welfare hubs across the nation" }
       ]
     },
@@ -118,10 +156,10 @@ export const contentData = {
       filters: ["All", "Education", "Healthcare", "Community"],
       items: [
         { id: 101, title: "Mission Every Girl in School", category: "Education", image: "/images/3.jpg", year: "2024" },
-        { id: 102, title: "Community Health & Screening", category: "Healthcare", image: "/images/1.jpg", year: "2024" },
+        { id: 102, title: "Women Free OPD & Health Screening", category: "Healthcare", image: "/images/1.jpg", year: "2024" },
         { id: 103, title: "Women Vocational Workshop", category: "Community", image: "/images/5.jpg", year: "2023" },
         { id: 104, title: "Youth Skill & Computer Lab", category: "Education", image: "/images/6.jpg", year: "2023" },
-        { id: 105, title: "Rural Healthcare Outreach", category: "Healthcare", image: "/images/IMG_20201115_094235.jpg", year: "2024" },
+        { id: 105, title: "Rural Free Medical Outreach", category: "Healthcare", image: "/images/IMG_20201115_094235.jpg", year: "2024" },
         { id: 106, title: "Nutrition & Care Package Drive", category: "Community", image: "/images/IMG_20201115_095724.jpg", year: "2023" }
       ]
     },
@@ -162,21 +200,35 @@ export const contentData = {
       ]
     },
     footer: {
-      tagline: "Empowering Lives Through Awareness, Education & Care. Dedicated to Mothers.",
+      tagline: "Empowering Lives Through Free Healthcare, OPDs & Education. Dedicated to Mothers.",
       email: "sashaktifoundationtrust@gmail.com",
       copyright: "© 2026 SaShakti Foundation Trust. All Rights Reserved.",
-      links: ["Privacy Policy", "Terms & Conditions", "Board of Trustees", "Contact Us"]
+      links: ["Privacy Policy", "Terms & Conditions", "Free OPD Camps", "Board of Trustees"]
     }
   },
   hi: {
     brand: "सशक्ति फाउंडेशन",
     subBrand: "ट्रस्ट एवं जन कल्याण संगठन",
+    topAnnouncement: {
+      badge: "विशेष स्वास्थ्य शिविर",
+      text: "ग्रामीण और वंचित क्षेत्रों में महिलाओं के लिए निःशुल्क ओपीडी एवं स्वास्थ्य जांच",
+      action: "निःशुल्क ओपीडी बुक करें"
+    },
     availableIn: "यह पृष्ठ इसमें उपलब्ध है:",
     languages: [
       { id: "en", name: "English" },
       { id: "hi", name: "hindi" }
     ],
     nav: [
+      {
+        id: "opd",
+        label: "निःशुल्क ओपीडी व स्वास्थ्य",
+        items: [
+          { title: "मुफ़्त डॉक्टर ओपीडी परामर्श", desc: "विशेषज्ञ डॉक्टरों द्वारा मुफ़्त जाँच व दवाइयाँ" },
+          { title: "महिला स्वास्थ्य जांच", desc: "रक्त परीक्षण एवं निवारक स्वास्थ्य सेवाएँ" },
+          { title: "मोबाइल स्वास्थ्य शिविर", desc: "ग्रामीण क्षेत्रों तक चिकित्सा सेवाएँ" }
+        ]
+      },
       {
         id: "about",
         label: "हमारे बारे में",
@@ -210,6 +262,30 @@ export const contentData = {
     searchPlaceholder: "खोजें...",
     searchLabel: "खोजें",
     donateBtn: "दान करें",
+    freeOpdSection: {
+      badge: "सामुदायिक स्वास्थ्य पहल",
+      title: "महिलाओं के लिए निःशुल्क ओपीडी एवं विशेषज्ञ स्वास्थ्य परीक्षण",
+      subtitle: "महिलाओं और परिवारों के लिए प्रारंभिक स्वास्थ्य जांच, मुफ्त डॉक्टर परामर्श एवं दवाओं के लिए समर्पित।",
+      features: [
+        {
+          title: "निःशुल्क डॉक्टर परामर्श (OPD)",
+          desc: "अनुभवी डॉक्टरों द्वारा सामान्य एवं महिला स्वास्थ्य समस्याओं का मुफ़्त परामर्श व निदान।"
+        },
+        {
+          title: "महिला स्वास्थ्य परीक्षण व डायग्नोस्टिक",
+          desc: "एनीमिया, बीपी, शुगर एवं पोषण जांच के लिए मुफ़्त स्वास्थ्य परीक्षण शिविर।"
+        },
+        {
+          title: "निःशुल्क दवा वितरण",
+          desc: "मरीजों को आवश्यक विटामिन्स एवं दवाइयाँ बिना किसी शुल्क के प्रदान की जाती हैं।"
+        },
+        {
+          title: "ग्रामीण क्षेत्रों में मोबाइल हेल्थ कैंप",
+          desc: "दूरदराज के गांवों तक आधुनिक स्वास्थ्य उपकरण एवं मेडिकल टीम पहुँचाना।"
+        }
+      ],
+      ctaText: "निःशुल्क ओपीडी जांच के लिए रजिस्टर करें"
+    },
     aimSection: {
       tag: "हमारा उद्देश्य",
       title: "हमारा उद्देश्य",
@@ -218,10 +294,10 @@ export const contentData = {
         {
           id: 1,
           image: "/images/1.jpg",
-          category: "स्वास्थ्य और जागरूकता",
-          title: "निवारक देखभाल और चिकित्सा सहायता",
-          desc: "ग्रामीण और वंचित समुदायों तक आवश्यक स्वास्थ्य जांच और मुफ़्त चिकित्सा शिविर पहुंचाना।",
-          location: "क्षेत्रीय स्वास्थ्य शिविर"
+          category: "निःशुल्क ओपीडी व स्वास्थ्य",
+          title: "महिला निःशुल्क ओपीडी एवं निवारक स्वास्थ्य सेवा",
+          desc: "महिलाओं और परिवारों तक मुफ़्त ओपीडी जाँच, प्राथमिक दवाइयाँ और स्वास्थ्य परामर्श पहुँचाना।",
+          location: "निःशुल्क क्षेत्रीय ओपीडी शिविर"
         },
         {
           id: 2,
@@ -266,7 +342,7 @@ export const contentData = {
       storyText: "हिन्दू धर्मग्रंथों में 'शक्ति' शब्द सर्वव्यापी सामर्थ्य का प्रतीक है। संस्थापक आशीष सिंह को अपनी माताजी से प्रेरणा मिलती है—जिस प्रकार एक माँ बिना किसी स्वार्थ के अपने बच्चों के लिए सबकुछ समर्पित करती है, उसी भाव से सशक्तिकरण फाउंडेशन प्रत्येक जरूरतमंद बालक-बालिका के जीवन में खुशियाँ लाने के लिए समर्पित है।",
       keyPoints: [
         "हर बालिका के लिए प्राथमिक और माध्यमिक शिक्षा को प्राथमिकता।",
-        "बालिकाओं को जीवन के हर क्षेत्र में आत्मनिर्भर बनाना।",
+        "महिलाओं के लिए मुफ़्त ओपीडी जाँच एवं विशेष स्वास्थ्य परीक्षण।",
         "कुल लाभार्थियों में 51% बालिकाएँ, जो समाज की सोच में परिवर्तन ला रही हैं।",
         "स्थापना से अब तक 2,00,000+ से अधिक बच्चों को गुणवत्तापूर्ण शिक्षा दी गई।"
       ]
@@ -287,7 +363,7 @@ export const contentData = {
       filters: ["सभी", "शिक्षा", "स्वास्थ्य", "समुदाय"],
       items: [
         { id: 101, title: "हर लड़की स्कूल में", category: "शिक्षा", image: "/images/3.jpg", year: "2024" },
-        { id: 102, title: "सामुदायिक स्वास्थ्य जांच", category: "स्वास्थ्य", image: "/images/1.jpg", year: "2024" },
+        { id: 102, title: "महिला निःशुल्क ओपीडी जांच", category: "स्वास्थ्य", image: "/images/1.jpg", year: "2024" },
         { id: 103, title: "महिला आजीविका कार्यशाला", category: "समुदाय", image: "/images/5.jpg", year: "2023" },
         { id: 104, title: "युवा डिजिटल शिक्षा", category: "शिक्षा", image: "/images/6.jpg", year: "2023" },
         { id: 105, title: "ग्रामीण स्वास्थ्य सेवा पहुँच", category: "स्वास्थ्य", image: "/images/IMG_20201115_094235.jpg", year: "2024" },
@@ -317,7 +393,7 @@ export const contentData = {
           quote: "जब एक समर्पित टीम आपसी विश्वास और साहस के साथ काम करती है, तो हम असंभव को भी संभव बना देते हैं।"
         },
         {
-          name: "श्री बृज नंदन सिंह",
+          name: "आयुष सिंह",
           role: "कोषाध्यक्ष सलाहकार",
           image: "/images/m31.jpg",
           quote: "पारदर्शिता और निष्ठा ही सार्वजनिक विश्वास का आधार है।"
