@@ -13,16 +13,16 @@ export const contentData = {
         label: "About us",
         items: [
           { title: "About SaShakti Foundation", desc: "Our origin story and core mission" },
-          { title: "Message from Chairperson", desc: "Visionary insights from leadership" },
-          { title: "Our Determination", desc: "Commitments for long-term impact" },
-          { title: "Annual Report", desc: "Financial transparency and reports" }
+          { title: "Message from Founder", desc: "Visionary insights from Mr. Ashish Singh" },
+          { title: "Our Determination", desc: "Commitments for long-term girl education" },
+          { title: "Board of Trustees", desc: "Leadership and team advisors" }
         ]
       },
       {
         id: "work",
         label: "Our work",
         items: [
-          { title: "Mission Education", desc: "Quality schooling for underprivileged children" },
+          { title: "Mission Every Girl in School", desc: "Primary & secondary schooling for girls" },
           { title: "Healthcare & Prevention", desc: "Early detection and health awareness" },
           { title: "Women Empowerment", desc: "Livelihood training & community leadership" },
           { title: "Youth Skill Building", desc: "Vocational education and employment" }
@@ -30,15 +30,15 @@ export const contentData = {
       },
       {
         id: "ideas",
-        label: "Ideas",
+        label: "Ideas & Inspiration",
         items: [
-          { title: "Stories of Change", desc: "Real impact from real beneficiaries" },
-          { title: "Research & Insights", desc: "Data-driven community solutions" },
-          { title: "Event Updates", desc: "Recent drives, workshops & events" }
+          { title: "Inspired by Motherhood", desc: "The divine philosophy of Shakti" },
+          { title: "Become The Change", desc: "Field stories of personal transformation" },
+          { title: "Special Contributors", desc: "Photographers, partners & volunteers" }
         ]
       }
     ],
-    searchPlaceholder: "Search initiatives, articles, reports...",
+    searchPlaceholder: "Search initiatives, founder's message, reports...",
     searchLabel: "Search",
     donateBtn: "Donate Now",
     aimSection: {
@@ -88,6 +88,20 @@ export const contentData = {
         }
       ]
     },
+    storySection: {
+      tag: "THE INSPIRATION",
+      title: "Inspired by a Mother's Unconditional Love",
+      quote: "To see the change, you will have to Become The Change!",
+      founder: "Mr. Ashish Singh",
+      founderTitle: "Founder & CEO",
+      storyText: "The word 'Shakti' in Hindu mythology signifies the supreme creative force of everything. Founder Ashish Singh draws his deepest inspiration from his mother—how a mother selflessly gives everything to her children without expecting anything in return. SaShakti Foundation is dedicated to all mothers out there, striving to spread happiness and provide basic amenities to every underprivileged child.",
+      keyPoints: [
+        "Primary and secondary education priority for every girl child.",
+        "Uplifting young women to make them independent in every aspect of life.",
+        "51% of total beneficiaries are girls, driving attitudinal change in parents.",
+        "Over 200,000 children provided quality education since launch."
+      ]
+    },
     impactSection: {
       title: "Impact by Numbers",
       subtitle: "Measurable progress driving systemic change across communities.",
@@ -99,8 +113,8 @@ export const contentData = {
       ]
     },
     gallerySection: {
-      title: "Featured Initiatives",
-      subtitle: "Visual documentation of our ongoing field work and transformative programs.",
+      title: "Featured Initiatives & Field Stories",
+      subtitle: "Visual documentation of our ongoing field work, shot by Shubham Sharma.",
       filters: ["All", "Education", "Healthcare", "Community"],
       items: [
         { id: 101, title: "Mission Every Girl in School", category: "Education", image: "/images/3.jpg", year: "2024" },
@@ -112,7 +126,7 @@ export const contentData = {
       ]
     },
     teamSection: {
-      title: "Leadership & Vision",
+      title: "Board of Trustees & Leadership",
       subtitle: "Dedicated change-makers striving towards a healthier, more equitable future.",
       members: [
         {
@@ -132,14 +146,26 @@ export const contentData = {
           role: "Vice President",
           image: "/images/m21.jpg",
           quote: "When a gifted team dedicates itself to unselfish trust and boldness, we break boundaries of what is possible."
+        },
+        {
+          name: "Mr. Brij Nandan Singh",
+          role: "Treasurer Adviser",
+          image: "/images/m31.jpg",
+          quote: "It takes two to do the trust tango—transparency and dedication form the foundation of public trust."
+        },
+        {
+          name: "Mr. Jai Vardhan Singh",
+          role: "Operational Secretary",
+          image: "/images/m41.jpg",
+          quote: "The glue that holds all relationships together between leadership and community is trust and integrity."
         }
       ]
     },
     footer: {
-      tagline: "Empowering Lives Through Awareness, Education & Care.",
+      tagline: "Empowering Lives Through Awareness, Education & Care. Dedicated to Mothers.",
       email: "sashaktifoundationtrust@gmail.com",
       copyright: "© 2026 SaShakti Foundation Trust. All Rights Reserved.",
-      links: ["Privacy Policy", "Terms & Conditions", "Financial Reports", "Contact Us"]
+      links: ["Privacy Policy", "Terms & Conditions", "Board of Trustees", "Contact Us"]
     }
   },
   hi: {
@@ -156,16 +182,16 @@ export const contentData = {
         label: "हमारे बारे में",
         items: [
           { title: "सशक्ति फाउंडेशन के बारे में", desc: "हमारी यात्रा और मुख्य उद्देश्य" },
-          { title: "अध्यक्ष का संदेश", desc: "नेतृत्व से प्रेरणादायक विचार" },
-          { title: "हमारा संकल्प", desc: "दीर्घकालिक प्रभाव के लिए हमारी प्रतिबद्धता" },
-          { title: "वार्षिक रिपोर्ट", desc: "पारदर्शिता और वित्तीय विवरण" }
+          { title: "संस्थापक का संदेश", desc: "श्री आशीष सिंह के प्रेरणादायक विचार" },
+          { title: "हमारा संकल्प", desc: "बालिका शिक्षा के लिए हमारा संकल्प" },
+          { title: "ट्रस्टी बोर्ड", desc: "हमारा नेतृत्व मंडल" }
         ]
       },
       {
         id: "work",
         label: "हमारा कार्य",
         items: [
-          { title: "मिशन शिक्षा", desc: "वंचित बच्चों के लिए गुणवत्तापूर्ण शिक्षा" },
+          { title: "मिशन हर लड़की स्कूल में", desc: "बालिकाओं के लिए प्राथमिक और माध्यमिक शिक्षा" },
           { title: "स्वास्थ्य और रोकथाम", desc: "प्रारंभिक जांच और स्वास्थ्य जागरूकता" },
           { title: "महिला सशक्तिकरण", desc: "जीविकोपार्जन प्रशिक्षण और सामुदायिक नेतृत्व" },
           { title: "युवा कौशल विकास", desc: "व्यावसायिक शिक्षा और रोजगार सहायता" }
@@ -173,11 +199,11 @@ export const contentData = {
       },
       {
         id: "ideas",
-        label: "विचार और समाचार",
+        label: "विचार और प्रेरणा",
         items: [
-          { title: "बदलाव की कहानियां", desc: "लाभार्थियों के वास्तविक अनुभव" },
-          { title: "अनुसंधान और अंतर्दृष्टि", desc: "डेटा-आधारित समाधान" },
-          { title: "कार्यक्रम एवं अपडेट", desc: "हाल के शिविर और कार्यशालाएं" }
+          { title: "मातृशक्ति से प्रेरणा", desc: "शक्ति दर्शन की पावन अवधारणा" },
+          { title: "बदलाव का हिस्सा बनें", desc: "ज़मीनी बदलाव की कहानियाँ" },
+          { title: "विशेष सहयोगी", desc: "फोटोग्राफर्स, सहयोगी एवं स्वयंसेवक" }
         ]
       }
     ],
@@ -231,6 +257,20 @@ export const contentData = {
         }
       ]
     },
+    storySection: {
+      tag: "प्रेरणा",
+      title: "माँ के निस्वार्थ प्रेम से प्रेरित",
+      quote: "बदलाव देखने के लिए, आपको खुद बदलाव बनना होगा!",
+      founder: "श्री आशीष सिंह",
+      founderTitle: "संस्थापक एवं मुख्य कार्यकारी अधिकारी",
+      storyText: "हिन्दू धर्मग्रंथों में 'शक्ति' शब्द सर्वव्यापी सामर्थ्य का प्रतीक है। संस्थापक आशीष सिंह को अपनी माताजी से प्रेरणा मिलती है—जिस प्रकार एक माँ बिना किसी स्वार्थ के अपने बच्चों के लिए सबकुछ समर्पित करती है, उसी भाव से सशक्तिकरण फाउंडेशन प्रत्येक जरूरतमंद बालक-बालिका के जीवन में खुशियाँ लाने के लिए समर्पित है।",
+      keyPoints: [
+        "हर बालिका के लिए प्राथमिक और माध्यमिक शिक्षा को प्राथमिकता।",
+        "बालिकाओं को जीवन के हर क्षेत्र में आत्मनिर्भर बनाना।",
+        "कुल लाभार्थियों में 51% बालिकाएँ, जो समाज की सोच में परिवर्तन ला रही हैं।",
+        "स्थापना से अब तक 2,00,000+ से अधिक बच्चों को गुणवत्तापूर्ण शिक्षा दी गई।"
+      ]
+    },
     impactSection: {
       title: "संख्याओं में प्रभाव",
       subtitle: "समुदाय में सकारात्मक और दीर्घकालिक बदलाव।",
@@ -242,8 +282,8 @@ export const contentData = {
       ]
     },
     gallerySection: {
-      title: "प्रमुख पहल",
-      subtitle: "हमारे जमीनी कार्यों और परिवर्तनात्मक कार्यक्रमों की तस्वीरें।",
+      title: "प्रमुख पहल एवं ज़मीनी तस्वीरें",
+      subtitle: "हमारे ज़मीनी कार्यों की तस्वीरें (शुभम शर्मा द्वारा फोटोग्राफी)।",
       filters: ["सभी", "शिक्षा", "स्वास्थ्य", "समुदाय"],
       items: [
         { id: 101, title: "हर लड़की स्कूल में", category: "शिक्षा", image: "/images/3.jpg", year: "2024" },
@@ -255,7 +295,7 @@ export const contentData = {
       ]
     },
     teamSection: {
-      title: "नेतृत्व और दृष्टिकोण",
+      title: "बोर्ड ऑफ ट्रस्टी एवं नेतृत्व",
       subtitle: "एक स्वस्थ और अधिक न्यायसंगत भविष्य के लिए समर्पित।",
       members: [
         {
@@ -275,14 +315,26 @@ export const contentData = {
           role: "उपाध्यक्ष",
           image: "/images/m21.jpg",
           quote: "जब एक समर्पित टीम आपसी विश्वास और साहस के साथ काम करती है, तो हम असंभव को भी संभव बना देते हैं।"
+        },
+        {
+          name: "श्री बृज नंदन सिंह",
+          role: "कोषाध्यक्ष सलाहकार",
+          image: "/images/m31.jpg",
+          quote: "पारदर्शिता और निष्ठा ही सार्वजनिक विश्वास का आधार है।"
+        },
+        {
+          name: "श्री जय वर्धन सिंह",
+          role: "परिचालन सचिव",
+          image: "/images/m41.jpg",
+          quote: "नेतृत्व और समाज को एक सूत्र में पिरोने वाला गोंद विश्वास और सत्यनिष्ठा है।"
         }
       ]
     },
     footer: {
-      tagline: "जागरूकता, शिक्षा और देखभाल के माध्यम से जीवन सशक्त बनाना।",
+      tagline: "जागरूकता, शिक्षा और देखभाल के माध्यम से जीवन सशक्त बनाना। माताओं को समर्पित।",
       email: "sashaktifoundationtrust@gmail.com",
       copyright: "© 2026 सशक्तिकरण फाउंडेशन ट्रस्ट। सर्वाधिकार सुरक्षित।",
-      links: ["गोपनीयता नीति", "नियम और शर्तें", "वित्तीय रिपोर्ट", "संपर्क करें"]
+      links: ["गोपनीयता नीति", "नियम और शर्तें", "ट्रस्टी बोर्ड", "संपर्क करें"]
     }
   }
 };

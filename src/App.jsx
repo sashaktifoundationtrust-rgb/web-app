@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import HeroAim from './components/HeroAim';
+import StorySection from './components/StorySection';
 import ImpactStats from './components/ImpactStats';
 import GallerySection from './components/GallerySection';
 import TeamSection from './components/TeamSection';
@@ -45,6 +46,9 @@ export default function App() {
       <main className="app-content">
         {/* OUR AIM Hero Section matching screenshot layout */}
         <HeroAim aimData={content.aimSection} />
+
+        {/* Founder's Inspiration Story & Determination */}
+        <StorySection storyData={content.storySection} />
 
         {/* Impact Counters & Statistics */}
         <ImpactStats impactData={content.impactSection} />
