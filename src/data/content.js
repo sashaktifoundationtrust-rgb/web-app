@@ -148,7 +148,7 @@ export const contentData = {
           quote: "When a gifted team dedicates itself to unselfish trust and boldness, we break boundaries of what is possible."
         },
         {
-          name: "Mr. Brij Nandan Singh",
+          name: "Ayush Singh",
           role: "Treasurer Adviser",
           image: "/images/m31.jpg",
           quote: "It takes two to do the trust tango—transparency and dedication form the foundation of public trust."
